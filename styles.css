@@ -1,9 +1,67 @@
+/* General styling */
 body {
-    margin: 0;
-    overflow: hidden;
-    background-color: white;
-  }
-  
-  canvas {
-    display: block;
-  }
+  margin: 0;
+  overflow: hidden;
+  font-family: 'Poppins', sans-serif;
+  background-color: #000;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  position: relative;
+}
+
+/* Centering and styling the container */
+.container {
+  text-align: center;
+  position: relative;
+  z-index: 10;
+}
+
+h1 {
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+/* File upload button styling */
+#audioFile {
+  display: none;
+}
+
+.custom-file-upload {
+  display: inline-block;
+  padding: 15px 30px;
+  font-size: 1.2rem;
+  font-weight: 400;
+  color: #000;
+  background: #fff;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.custom-file-upload:hover {
+  background: #ff4b2b;
+  color: #fff;
+}
+
+/* Audio player styling */
+audio {
+  margin-top: 15px;
+  width: 100%;
+  max-width: 400px;
+  outline: none;
+  border: none;
+  filter: drop-shadow(0 0 10px rgba(255, 255, 255, 0.3));
+}
+
+/* Three.js canvas adjustments */
+canvas {
+  display: block;
+  position: absolute;
+  top: 30%; 
+  left: 50%;
+  transform: translate(-50%, -20%);
+  z-index: 1;
+}
