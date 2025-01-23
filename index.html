@@ -5,11 +5,16 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Music Responsive Sphere</title>
   <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
 </head>
 <body>
-  <label for="audioFile">Upload Audio File:</label>
-  <input type="file" id="audioFile" accept="audio/*">
-  <audio id="audio" controls></audio>
+  <div class="container">
+    <h1>Music Responsive Sphere</h1>
+    <label for="audioFile" class="custom-file-upload">Upload Audio File</label>
+    <input type="file" id="audioFile" accept="audio/*">
+    <audio id="audio" controls></audio>
+  </div>
+
   <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
   <script src="script.js"></script>
 </body>
