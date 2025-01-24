@@ -12,7 +12,10 @@
     <h1>Music Responsive Sphere</h1>
     <label for="audioFile" class="custom-file-upload">Upload Audio File</label>
     <input type="file" id="audioFile" accept="audio/*">
-    <audio id="audio" controls></audio>
+    <audio id="audio" controls autoplay>
+      <source src="default.mp3" type="audio/mp3">
+      Your browser does not support the audio element.
+    </audio>
   </div>
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
