@@ -31,8 +31,14 @@ camera.position.z = 15;
 
 // Get audio elements
 const audioInput = document.getElementById("audioFile");
+const uploadButton = document.getElementById("uploadButton");
 const audioElement = document.getElementById("audio");
 const micButton = document.getElementById("micButton");
+
+// When the upload button is clicked, trigger the hidden file input.
+uploadButton.addEventListener("click", () => {
+  audioInput.click();
+});
 
 // Load default audio when page loads
 document.addEventListener("DOMContentLoaded", () => {
