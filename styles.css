@@ -65,3 +65,14 @@ canvas {
   transform: translate(-50%, -20%);
   z-index: 1;
 }
+/* Add to existing styles */
+.controls {
+  display: flex;
+  gap: 15px;
+  margin-bottom: 20px;
+}
+
+#micButton.active {
+  background: #ff4b2b !important;
+  color: #fff !important;
+}
