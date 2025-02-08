@@ -88,7 +88,9 @@ This project is licensed under the MIT License – feel free to modify and distr
 📧 Contact
 
 For any queries or suggestions, feel free to reach out:
-	•	GitHub: aadi0202
-	•	Email: aadipunatar@gmail.com
+- 💼 LinkedIn: [Aaditya Punatar](https://www.linkedin.com/in/aaditya-punatar/)
+- 🐱 GitHub: [@aadi0202](https://github.com/aadi0202)
+- 📧 Email: aadipunatar@gmail.com
+- 🌐 Website: [aadityapunatar.me](https://aadityapunatar.me)
 
 Enjoy visualizing your music! 🎧✨
