@@ -24,12 +24,13 @@ h1 {
   text-transform: uppercase;
 }
 
-/* File upload button styling */
-#audioFile {
-  display: none;
-}
-
-.custom-file-upload {
+/* Common button styling for both controls */
+.control-button {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  border: none;
+  outline: none;
   display: inline-block;
   padding: 15px 30px;
   font-size: 1.2rem;
@@ -39,9 +40,10 @@ h1 {
   border-radius: 50px;
   cursor: pointer;
   transition: all 0.3s ease-in-out;
+  
 }
 
-.custom-file-upload:hover {
+.control-button:hover {
   background: #ff4b2b;
   color: #fff;
 }
@@ -60,12 +62,13 @@ audio {
 canvas {
   display: block;
   position: absolute;
-  top: 30%; 
+  top: 30%;
   left: 50%;
   transform: translate(-50%, -20%);
   z-index: 1;
 }
-/* Add to existing styles */
+
+/* Controls styling */
 .controls {
   display: flex;
   gap: 15px;
@@ -75,4 +78,26 @@ canvas {
 #micButton.active {
   background: #ff4b2b !important;
   color: #fff !important;
+}
+
+/* Footer styling */
+footer {
+  position: absolute;
+  bottom: 10px;
+  width: 100%;
+  text-align: center;
+  z-index: 10;
+  font-size: 0.9rem;
+  color: #fff;
+}
+
+footer a {
+  color: #fff;
+  margin: 0 10px;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+footer a:hover {
+  color: #ff4b2b;
 }
