@@ -45,7 +45,8 @@ cd music-visualizer
 	•	Continuous rotation enhances the visual appeal.
 
 📷 Screenshots
-<img width="1470" alt="image" src="https://github.com/user-attachments/assets/00af9eb8-8b6d-4f6f-9497-95c96bc8b1ac" />
+<img width="1453" alt="image" src="https://github.com/user-attachments/assets/fdb9dc42-7d28-4b8a-9b59-8df48e84216c" />
+
 
 
 ⚙️ Customization
